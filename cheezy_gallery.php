@@ -24,10 +24,9 @@ function create_thumbnail($source, $dest, $width, $height) {
       break;
     default:
       trigger_error(
-        "Cannot create thumbnail: {$this->filename} is wrong type.");
+        "Cannot create thumbnail: {$source} is wrong type.");
     }
-    if (!$image) trigger_error(
-      "{$this->filename} not found");
+    if (!$image) trigger_error("{$source} not found");
     $rwidth  = $width  / $owidth;
     $rheight = $height / $oheight;
     $scale   = min($rwidth, $rheight);
