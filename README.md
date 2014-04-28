@@ -21,3 +21,5 @@ images the gallery will probably be really slow first time you go to
 it and you might even have to refresh a couple times. After that
 though, assuming you add just a few new files at a time, probably
 won't be a problem.
+
+License: WTFPL http://www.wtfpl.net/txt/copying/
